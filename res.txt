@@ -1,0 +1,3 @@
+client with id: 0 served by: 2
+client with id: 1 served by: 0
+[1, 0, 1, 0]

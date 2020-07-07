@@ -37,7 +37,7 @@ class WRR:
 
 wrr = WRR([30, 20, 40, 10])
 arr = [0, 0, 0, 0]
-for clientId in range(0, 2, 1):
+for clientId in range(0, 100, 1):
     serverId = wrr.nextServer()
     arr[serverId] += 1
     print("client with id: {0} served by: {1}".format(clientId, serverId))
